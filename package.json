@@ -1,0 +1,19 @@
+{
+  "name": "generator-basic_scafold",
+  "version": "1.0.0",
+  "description": "This generator will create a basic FE Scafold",
+   "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "keywords": ["yeoman-generator"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos B",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.22.6"
+  }
+}
