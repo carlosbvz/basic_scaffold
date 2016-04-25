@@ -1,13 +1,10 @@
-'use strict';
-
 var APP = window.APP = window.APP || {};
 
 APP.<%= appName %> = (function(){
-
-
+	'use strict';
 
 	function bindEventsToUI(){
-		console.log('Binding events to UI');
+		
 	}
 	
 	function init(){
@@ -16,6 +13,6 @@ APP.<%= appName %> = (function(){
 
 	return {
 		init:init
-	}
+	};
 
 })();

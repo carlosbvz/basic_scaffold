@@ -31,7 +31,7 @@ module.exports = generators.Base.extend({
 	writing: function() {
 		this.fs.copyTpl(
 	    	this.templatePath('*'),
-	    	this.destinationPath('components/'+userAnswers.appname),
+	    	this.destinationPath('app/components/'+userAnswers.appname),
 	    	{ 	title: 		userAnswers.appname,
 	    		appName: 	userAnswers.appname
 	    	}
