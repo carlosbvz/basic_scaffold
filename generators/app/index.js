@@ -33,7 +33,7 @@ module.exports = generators.Base.extend({
 	    	this.templatePath('*'),
 	    	this.destinationPath('app/components/'+userAnswers.appname),
 	    	{ 	title: 		userAnswers.appname,
-	    		appName: 	userAnswers.appname
+	    		appName: 	_.camelCase(userAnswers.appname)
 	    	}
 	    );
 	    /* Gruntjs
